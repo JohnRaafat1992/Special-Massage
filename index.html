@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Special Massage </title
+    <!-- Render ALl Elements Normally -->
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <!-- Font Awesome Libarary  -->
+    <link rel="stylesheet" href="css/all.min.css"/>
+    <!-- Main Template css FIle-->
+    <link rel="stylesheet" href="CSS/specialmassage.css"/>
+    <!-- google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" >
+</head>
+<body>
+  <!-- Start setting box -->
+  <div class="setting-box">
+    <div class="toggle-setting">
+      <i class="fas fa-cog "></i>
+    </div>
+    <div class="option-list">USER OPTION LIST</div>
+    <div class="setting-container"> 
+      <div class="option-box"> 
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#ff9800"></li>
+            <li data-color="#e91e63"></li>
+            <li data-color="#006588"></li>
+            <li data-color="#03a9f4"></li>
+            <li data-color="#4caf50"></li>
+          </ul>
+      </div>
+      <div class="option-box">
+        <h4>Stop moving  <br> Backgrounds for HOME section ?</h4>
+        <div class="random-backgrounds">
+          <span class="yes " data-background="yes" >Yes</span>
+          <span class="no active" data-background="no">No</span>
+        </div>
+      </div>
+      <div class="option-box">
+        <h4>Show Bullets </h4>
+        <div class="bullets-option">
+          <span class="yes active " data-display="show" >Yes</span>
+          <span class="no" data-display="hide">No</span>
+        </div>
+      </div>
+      <button class="reset-options">Reset Options</button>
+    </div>
+  </div>
+  <!-- End setting box -->
+  <!-- start nav bullets  -->
+  <div class="nav-bullets">
+    <div class="bullet" data-section=".landing-page">
+      <div class="tooltip">ДОМОЙ</div>
+    </div>
+    <div class="bullet" data-section=".about-us">
+      <div class="tooltip">ОБО МНЕ</div>
+    </div>
+    <div class="bullet" data-section=".services">
+      <div class="tooltip">УСЛУГИ</div>
+    </div>
+    <div class="bullet" data-section=".our-gallary">
+      <div class="tooltip">ГАЛЕРЕЯ</div>
+    </div>
+    <div class="bullet" data-section=".timeline">
+      <div class="tooltip">СЕРТИФИКАТЫ</div>
+    </div>
+    <div class="bullet" data-section=".contact">
+      <div class="tooltip">КОНТАКТЫ</div>
+    </div>
+  </div>
+  <!-- end nav bullets -->
+    <!-- Start landing page  -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header-area">
+        <div class="logo">
+          <img src="images/38.png" alt="">
+          <h5>Special Massage</h5>
+        </div>
+        <div class="links-container">
+          <ul class="links ">
+          <li><a href="#" data-section=".landing-page">ДОМОЙ</a></li>
+          <li><a href="#" data-section=".about-us">ОБО МНЕ</a></li>
+          <li><a href="#" data-section=".services">УСЛУГИ</a></li>
+          <li><a href="#" data-section=".our-gallary">ГАЛЕРЕЯ</a></li>
+          <li><a href="#" data-section=".timeline" >СЕРТИФИКАТЫ</a></li>
+          <li><a href="#" data-section=".contact">КОНТАКТЫ </a></li>
+        </ul>
+        <button class="toggle-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        </div>
+      </div>
+      </div>
+      <div class="introduction-text">
+        <h1>SPECIAL <span>MASSAGE</span> THERAPY</h1>
+        <P>Эффективный подход в уходе за вашим телом и снижению стресса ,<br> Широкий спектр видов  <span> МАССАЖА </span> </P>
+      </div>
+    </div>
+    <!-- End landing page  -->
+    <!-- Start about us -->
+    <div class="container">
+      <div class="about-us">
+        <div class="info-box">
+          <h2>Обо мне</h2>
+          <p>Будь всегда на первом месте у самого себя. Живи в моменте! <br> В самом сердце очаровательного Витебска существует небольшой уголок рая, где вы можете ненадолго вырваться из реальности и погрузиться в мир ощущений. 
+            <br> Я специализируюсь на техниках массажного искусства и восковой и сахарной депиляции. Обучалась различным видам массажа, проходила мастер-классы и работала в салонах красоты.
+            <br> Я горжусь тем, что имею возможность помогать людям становиться более прекрасными, а также дарить хорошее самочувствие.
+Благодаря моему опыту и постоянному самосовершенствованию, вы можете быть уверены, что находитесь в надёжных руках!
+<br> Я люблю то, что делаю. Вы сразу это почувствуете! ...</p>
+        </div>
+        <div class="image-box">
+          <img src="images/15.jpg" alt="Alesia">
+        </div>
+      </div>
+    </div>
+    <!-- End about us -->
+    <!-- Start Service--> 
+<div class="container"> 
+  <div class="services" id="services">
+        <div class="main-heading">
+          <h2>УСЛУГИ </h2>
+        </div>
+            <div class="services-container">
+                <div class="srv-box">
+                    <img src="images/first.jpg" alt="">
+                    <div class="text">
+                        <h3>Массаж для тела</h3>
+                        <p> Пять основных видов массажа для вашего тела чтобы расслабиться, получить оздоровительный эффект и погрузиться в мир удовольствия.</p>
+                    </div>
+                </div>
+                  <div class="srv-box">
+                    <img src="images/50.png" alt="">
+                          <div class="text">
+                        <h3>Массаж для лица</h3>
+                        <p> Лучшие техники и решения для поддержания молодости и красоты вашей кожи.</p>
+                          </div>
+                  </div>
+                <div class="srv-box">
+                    <img src="images/39.jpg" alt="">
+                    <div class="text">
+                        <h3>Шугаринг</h3>
+                        <p> Позвольте себе гладкость и роскошное сияние вашей кожи. Сахарная депиляция для деликатного удаления нежелательных волос.</p>
+                    </div>
+                </div>
+                <div class="srv-box">
+                  <img src="images/40.jpg" alt="">
+                    <div class="text">
+                        <h3>Восковая депиляция</h3>
+                        <p> Для любительниц теплых прикосновений воска, идеальной гладкости и совершенства.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="video">
+        <video autoplay muted loop  >
+        <source src="Images/owl02.mp4" type="video/mp4" >
+        </video>
+    </div>
+    <!-- End Service--> 
+    <!-- start slide -->
+    <div class="our-gallary">
+            <div class="container">
+              <h4>Галерея</h4>
+      <div class="slider-container">
+        <div id="slide-number" class="slide-number"></div>
+        <img src="images/17.jpg" alt="">
+        <img src="images/18.jpg" alt="">
+        <img src="images/19.jpg" alt="">
+        <img src="images/20.jpg" alt="">
+        <img src="images/21.jpg" alt="">
+        <img src="images/22.jpg" alt="">
+        <img src="images/23.jpg" alt="">
+        <img src="images/24.jpg" alt="">
+        <img src="images/25.jpg" alt="">
+        <img src="images/26.jpg" alt="">
+    </div>
+    <div class="slider-controls">
+        <span id="prev" class="prev">Предыдущая</span>
+        <span id="indicators" class="indicators"></span>
+        <span id="next" class="next">Следующая</span>
+    </div>
+      </div>
+    <!-- end slide -->
+    <!-- start gallary -->
+    <div class="gallary">
+      <div class="container">
+        <div class="images-box">
+          <img src="images/17.jpg" alt="One Of Ten">
+          <img src="images/18.jpg" alt="Two Of Ten">
+          <img src="images/19.jpg" alt="Three Of Ten">
+          <img src="images/20.jpg" alt="Four Of Ten">
+          <img src="images/21.jpg" alt="Five Of Ten">
+          <img src="images/22.jpg" alt="Six Of Ten">
+          <img src="images/23.jpg" alt="Seven Of Ten">
+          <img src="images/24.jpg" alt="Eight Of Ten">
+          <img src="images/25.jpg" alt="Nine Of Ten">
+          <img src="images/26.jpg" alt="Ten Of Ten">
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- end gallary -->
+    <!-- start timeline -->
+    <div class="timeline">
+      <div class="container">
+        <h4>СЕРТИФИКАТЫ </h4>
+        <div class="timeline-content">
+
+          <div class="year">2020</div>
+        <div class="left">
+          <div class="arrow"></div>
+            <div class="content">
+              <img src="Images/28.jpg" alt="">
+              <h3>Школа массажа "Здравие"</h3>
+              <p>Успешно прошла обучение 5 видам массажа, в том числе косметический массаж и стоун-терапия</p>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="arrow"></div>
+            <div class="content">
+              <img src="Images/29.jpg" alt="">
+              <h3>Массаж Гуаша</h3>
+              <p>Один из видов массажа с использованием "скребков" из натурального камня, дерева или стекла</p>
+            </div>
+          </div>
+
+          <div class="left">
+            <div class="arrow"></div>
+            <div class="content">
+              <img src="Images/32.jpg" alt="">
+              <h3>Восковая депиляция (повышение)</h3>
+              <p>Совершенствование навыков в работе, отработка скоростных техник и тонких нюансов</p>
+            </div>
+          </div>
+
+          <div class="right">
+            <div class="arrow"></div>
+            <div class="content">
+              <img src="Images/33.jpg" alt="">
+              <h3>Мастер восковой депиляции</h3>
+              <p>Базовый курс работы мастером депиляции, отработка навыков и полное погружение в профессию</p>
+            </div>
+          </div>
+          <div class="left">
+            <div class="arrow"></div>
+            <div class="content">
+              <img src="Images/30.jpg" alt="">
+              <h3>Шугаринг (повышение квалификации)</h3>
+              <p>Совершенствование навыков в работе, отработка скоростных техник и пробелов на практике</p>
+            </div>
+          </div>
+          <div class="right">
+            <div class="arrow"></div>
+            <div class="content">
+              <img src="Images/31.jpg" alt="">
+              <h3>Мастер по шугарингу</h3>
+              <p>Полный курс работы шугарингом на всех зонах, комплексный подход и использование современных техник и материалов</p>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="arrow1"></div>
+      <div class="container">
+        <div class="center">
+            <div class="content">
+              <img src="Images/34.jpg" alt="">
+              <h4>Мастер шугаринга</h4>
+              <p>Использование лучшей профессиональной косметики в работе с клиентами, качественный уход за кожей</p>
+            </div>
+            </div>
+        </div>
+        </div>
+    <!-- end timeline -->
+    <!-- start contact us -->
+        <div class="contact">
+          <div class="overlay"></div>
+          <div class="container">
+            <h2>КОНТАКТЫ</h2>
+            <div class="contact-info">
+              <div class="address">
+              <i class="fas fa-home"></i> 
+                Адрес
+              <h5> Беларусь, Витебск, улица Берестеня 34 </h5>
+              </div>
+              <div class="phone">
+                <i class="fas fa-phone-square-alt"></i>
+                Номер телефона
+                <h5>+375292769823 </h5>
+                </div>
+              <div class="mail">
+                <i class="fas fa-envelope"></i>
+                MAIL
+                <h5>sweetalesia@yandex.by</h5>
+                </div>
+            <div class="link">
+              <a href="https://www.instagram.com/bulki_massage/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="https://www.facebook.com/alesia.suvorova.3" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+      </div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2277.1886719464715!2d30.245711584535403!3d55.19746024215264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46c576ad883b302f%3A0xe0b28a7c1c952cae!2svulica%20Bierascienia%2034%2C%20Viciebsk!5e0!3m2!1sar!2sby!4v1625163676567!5m2!1sar!2sby"  allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+
+    <!-- end contact us -->
+        <!-- start footer -->
+        <div class="footer">
+          Copy Right &copy; 2021 All Rights Reserved BY <span> Special Massage Therapy</span>
+        </div>
+        <!-- end footer -->
+  <script src="SpecialMassage.js"></script>
+</body>
+</html>
